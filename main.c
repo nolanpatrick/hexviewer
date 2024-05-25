@@ -3,19 +3,9 @@
 #include <string.h>
 #include <math.h>
 
-/* TODO:
- *   add offset and length parameters to arguments
- *   variable word length
- * 
- */
-
-
 void print_usage(char *program) {
-	printf("Usage: %s <filename> [optional]\n", program);
+	printf("Usage: %s <filename>\n", program);
 	printf("\n");
-	printf("Arguments:\n");
-	printf("  -l, --length    Show file length and quit\n");
-	printf("  -h, --help      Show this usage message\n");
 }
 
 int main(int argc, char **argv) {
